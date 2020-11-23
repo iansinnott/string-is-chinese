@@ -1,3 +1,7 @@
+// In decimal, these ranges are roughly:
+//             20k  - 40k,  63k -  64k
+// Initially this regex came from: https://github.com/stkevintan/hugo-lunr-zh
+// Credit to that project for coming up with it.
 const RE = /[\u4E00-\u9FA5\uF900-\uFA2D]/;
 
 const hasChinese = (str) => {
