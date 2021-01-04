@@ -22,7 +22,7 @@ isChinese("Just an english sentence... 不是！", { threshold: 0.05 }); // => t
 
 ### Copy Paste
 
-This is library is basically a wrapper around a regex. Feel free to copy and paste directly if it makes things easier:
+This library is basically a wrapper around a regex. Feel free to copy and paste directly if it makes things easier:
 
 ```js
 const RE = /[\u4E00-\u9FA5\uF900-\uFA2D]/;
