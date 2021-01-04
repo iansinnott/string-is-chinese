@@ -1,6 +1,6 @@
 # Is Chinese?
 
-A simple helper to check if a string of characters is matches the known unicode range for Chinese.
+A simple helper to check if a string of characters matches the known Unicode range for Chinese.
 
 ## Usage
 
@@ -18,4 +18,14 @@ hasChinese("Just an english sentence... 不是！"); // => true
 // You can configure the percentage of a string that must be Chinese in order
 // to pass the test.
 isChinese("Just an english sentence... 不是！", { threshold: 0.05 }); // => true
+```
+
+### Copy Paste
+
+This is library is basically a wrapper around a regex. Feel free to copy and paste directly if it makes things easier:
+
+```js
+const RE = /[\u4E00-\u9FA5\uF900-\uFA2D]/;
+
+RE.test("加油!");
 ```

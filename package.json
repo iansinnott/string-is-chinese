@@ -1,7 +1,7 @@
 {
   "name": "@ian_sinn/string-is-chinese",
   "version": "1.0.3",
-  "description": "Test if a string is chiense",
+  "description": "Test if a string is Chinese",
   "main": "index.js",
   "author": "Ian Sinnott <ian@iansinnott.com>",
   "license": "MIT",
