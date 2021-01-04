@@ -5,7 +5,7 @@ A simple helper to check if a string of characters matches the known Unicode ran
 ## Usage
 
 ```js
-const { isChinese, RE } = require("@ian_sinn/is-chinese");
+const { isChinese, RE } = require("@ian_sinn/string-is-chinese");
 
 // Test if a string "is chinese"
 isChinese("你好嗎？還有誰要來？  我放幾個空格看看。"); // => true
